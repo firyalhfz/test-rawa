@@ -93,7 +93,6 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
-
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -106,4 +105,112 @@ hr {
   content: "10%";
   font-size: 18px;
   font-weight: 700;
+}
+
+main .header-form {
+  display: flex;
+  margin: 40px;
+  align-items: center;
+  border-color: 1px solid #ffffff;
+  background-color: #1e1e1e;
+}
+
+main form .search-container {
+  position: relative;
+}
+
+main form div .search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: auto;
+}
+
+main form div .option-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 32px;
+  height: auto;
+}
+
+main form div .search-input {
+  width: 627px;
+  height: 48px;
+  padding-left: 40px;
+  border-radius: 10px;
+  border: 2px solid #939393;
+  background-color: transparent;
+  color: #939393;
+  outline: none;
+}
+
+main form div .search-input::placeholder {
+  color: #939393;
+  font-size: 14px;
+}
+
+main form .upload-input-container {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+main form div .cloud-cross {
+  position: absolute;
+  left: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: auto;
+}
+
+main form div .upload-label {
+  display: block;
+  width: 351px;
+  height: 48px;
+  margin-left: 24px;
+  background-color: transparent;
+  color: #939393;
+  border-radius: 10px;
+  border: 2px dashed #939393;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+main form div .upload-label span {
+  display: relative;
+  font-size: 14px;
+}
+
+main form div .upload-label span .blue-text {
+  color: #57acdc;
+  text-decoration-line: underline;
+}
+
+main form div .upload-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+main form .img-link {
+  height: 24px;
+  width: 24px;
+  margin-left: 18px;
+}
+
+main form .img-profile {
+  height: 36px;
+  width: 36px;
+  margin-left: 18px;
 }

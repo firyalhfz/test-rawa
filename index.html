@@ -29,6 +29,37 @@
         </div>
       </nav>
     </header>
-    <main class="main-content"></main>
+    <main class="main-content">
+      <form class="header-form">
+        <div class="search-container">
+          <img src="/img/search.svg" class="search-icon" alt="Search Icon" />
+          <input
+            type="text"
+            class="search-input"
+            name="search"
+            placeholder="Search for file, folder, shared storehouse"
+          />
+          <img src="/img/option.svg" class="option-icon" alt="option-icon" />
+        </div>
+
+        <div class="upload-input-container">
+          <label for="uploadInput" class="upload-label">
+            <img
+              src="/img/cloud-cross.svg"
+              class="cloud-cross"
+              alt="cloud-cross"
+            />
+            <span
+              >Drag and drop <span class="blue-text">files</span>,
+              <span class="blue-text">folders</span>, or
+              <span class="blue-text">links</span>
+            </span>
+            <input type="file" id="uploadInput" class="upload-input" multiple />
+          </label>
+        </div>
+        <img src="/img/link.svg" class="img-link" />
+        <img src="/img/profile.svg" class="img-profile" />
+      </form>
+    </main>
   </body>
 </html>
