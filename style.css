@@ -23,14 +23,14 @@ header {
   gap: 6px;
 }
 
-.icon-droppex {
+.icon img {
   width: 24px;
   height: 24px;
   display: flex;
   margin: 0;
 }
 
-.title-droppex {
+.icon h1 {
   margin: 0;
   font-size: 24px;
   color: #57acdc;
@@ -69,7 +69,7 @@ ul .list-active {
   color: #57acdc;
 }
 
-hr {
+ul hr {
   margin-top: 31px;
   border: none;
   border-top: 1px solid #1e1e1e;
@@ -107,19 +107,23 @@ hr {
   font-weight: 700;
 }
 
-main .header-form {
+main {
+  margin: 0px 40px 0px 40px;
+}
+
+main form {
   display: flex;
-  margin: 40px;
+  margin-top: 40px;
   align-items: center;
   border-color: 1px solid #ffffff;
   background-color: #1e1e1e;
 }
 
-main form .search-container {
+.search-container {
   position: relative;
 }
 
-main form div .search-icon {
+.search-icon {
   position: absolute;
   left: 10px;
   top: 50%;
@@ -128,7 +132,7 @@ main form div .search-icon {
   height: auto;
 }
 
-main form div .option-icon {
+.option-icon {
   position: absolute;
   right: 10px;
   top: 50%;
@@ -137,7 +141,7 @@ main form div .option-icon {
   height: auto;
 }
 
-main form div .search-input {
+.search-input {
   width: 627px;
   height: 48px;
   padding-left: 40px;
@@ -148,19 +152,19 @@ main form div .search-input {
   outline: none;
 }
 
-main form div .search-input::placeholder {
+.search-input::placeholder {
   color: #939393;
   font-size: 14px;
 }
 
-main form .upload-input-container {
+.upload-input-container {
   position: relative;
   overflow: hidden;
   display: inline-block;
   margin-right: 10px;
 }
 
-main form div .cloud-cross {
+.cloud-cross {
   position: absolute;
   left: 40px;
   top: 50%;
@@ -169,7 +173,7 @@ main form div .cloud-cross {
   height: auto;
 }
 
-main form div .upload-label {
+.upload-label {
   display: block;
   width: 351px;
   height: 48px;
@@ -183,17 +187,17 @@ main form div .upload-label {
   cursor: pointer;
 }
 
-main form div .upload-label span {
+.upload-label span {
   display: relative;
   font-size: 14px;
 }
 
-main form div .upload-label span .blue-text {
+span .blue-text {
   color: #57acdc;
   text-decoration-line: underline;
 }
 
-main form div .upload-input {
+.upload-input {
   position: absolute;
   top: 0;
   left: 0;
@@ -203,14 +207,30 @@ main form div .upload-input {
   cursor: pointer;
 }
 
-main form .img-link {
+.img-link {
   height: 24px;
   width: 24px;
   margin-left: 18px;
 }
 
-main form .img-profile {
+.img-profile {
   height: 36px;
   width: 36px;
   margin-left: 18px;
+}
+
+.title-main-drive {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-main-drive p {
+  font-size: 18px;
+}
+
+main hr {
+  margin-top: 31px;
+  border: none;
+  margin-top: 10px;
+  border-top: 1px solid rgba(250, 250, 250, 0.1);
 }
