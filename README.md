@@ -12,7 +12,7 @@ This project consists of the following components:
 
 ### Navigation Sidebar
 
-The navigation sidebar serves as the main navigation component, typically located on the left side of the page. It contains links to different sections or pages of the website. Development time: 2 hours.
+The navigation sidebar serves as the main navigation component, located on the left side of the page. It contains links to different sections or pages of the website. Development time: 2 hours.
 
 ### Search
 
