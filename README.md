@@ -20,7 +20,7 @@ The search bar component allows users to input search queries. It features place
 
 ### Filter
 
-The filtering mechanism provides options to refine search results. It may include dropdown menus or checkboxes for selecting criteria. Development time: 1 hour.
+The filtering mechanism provides options to refine search results. Development time: 1 hour.
 
 ### Table
 
