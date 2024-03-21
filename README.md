@@ -30,8 +30,8 @@ The table layout displays tabular data in rows and columns. It is styled using C
 
 Support for RTL (Right-to-Left) languages ensures proper alignment and display for languages written from right to left. Development time: 1 hour.
 
-###Screenshoot (LTR)
+### Screenshoot (LTR)
 ![image](https://github.com/firyalhfz/test-rawa/assets/97155805/32fb37f8-c85a-4744-a04d-7eb780e2e973)
 
-###Screenshoot (RTL)
+### Screenshoot (RTL)
 ![image](https://github.com/firyalhfz/test-rawa/assets/97155805/76274526-7b57-4ddc-b5be-428011224d7e)
