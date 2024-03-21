@@ -296,6 +296,12 @@ td input {
   background-color: transparent;
 }
 
+.last-modified {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 tr:nth-child(odd) {
   background-color: rgba(139, 139, 139, 0.06);
   border-radius: 20px;
@@ -344,4 +350,62 @@ input[type="checkbox"] {
   width: 15px;
   height: 15px;
   outline: none;
+}
+
+/* RTL Support */
+body[dir="rtl"] {
+  direction: rtl;
+}
+
+body[dir="rtl"] .btn-new-folder,
+body[dir="rtl"] ul,
+body[dir="rtl"] ul hr {
+  flex-direction: row-reverse;
+}
+
+body[dir="rtl"] .search-icon {
+  right: 10px;
+  left: auto;
+  padding-right: 10px;
+}
+
+body[dir="rtl"] .option-icon {
+  left: 10px;
+  right: auto;
+}
+
+body[dir="rtl"] .search-input::placeholder {
+  text-align: right;
+  padding: 50px;
+}
+
+body[dir="rtl"] .search-input {
+  width: 700px;
+}
+
+body[dir="rtl"] .cloud-cross {
+  right: 20px;
+  left: auto;
+}
+
+body[dir="rtl"] .filter,
+.settings {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+body[dir="rtl"] table th,
+body[dir="rtl"] table td {
+  text-align: right;
+}
+
+body[dir="rtl"] main hr {
+  margin: 10px 0;
+  border: none;
+  border-top: 1px solid rgba(250, 250, 250, 0.1);
+}
+
+body[dir="rtl"] .filter-container hr {
+  transform: rotate(-90deg);
 }
